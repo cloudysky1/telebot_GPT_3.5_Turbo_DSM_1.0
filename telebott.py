@@ -15,7 +15,7 @@ reference = Reference()
 # Load environment variables
 load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY = os.getenv("OpenAI_API_KEY")
 
 if not BOT_TOKEN:
     raise ValueError("Telegram BOT Token not found in .env file!")
