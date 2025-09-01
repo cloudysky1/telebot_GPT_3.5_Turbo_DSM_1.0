@@ -25,7 +25,7 @@ if not OPENAI_API_KEY:
 # Initialize bot, dispatcher, and OpenAI client
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
-client = OpenAI(api_key=OPENAI_API_KEY)
+client = OpenAI(api_key=OpenAI_API_KEY)
 
 MODEL_NAME = "gpt-3.5-turbo"
 
